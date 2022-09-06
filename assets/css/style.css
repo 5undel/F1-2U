@@ -1,10 +1,30 @@
 body {
     background-color: rgb(187, 187, 187);
     margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-body {
+    background-image: url(../image/gustavo-campos.jpg);
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.news-container {
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
 }
 
 .top-header {
-    background-color: red;
+    background: linear-gradient(to right, #e70909, rgb(0, 0, 0));
     color: whitesmoke;
     margin: 0;
     padding: 0;
@@ -32,6 +52,23 @@ body {
 
 /* Diver page*/
 
-.diver-grid {
+.diver-grid{
     padding-top: 10%;
+    padding-bottom: 10px;
+}
+
+.team-grid {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer {
+    background: linear-gradient(to right, #e70909, rgb(0, 0, 0));
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    height: 61px;
+    position: relative;
+    list-style: none;
 }
