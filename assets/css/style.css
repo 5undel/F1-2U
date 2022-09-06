@@ -63,6 +63,10 @@ body {
     padding-right: 5%;
 }
 
+.card-track {
+    background-color: grey;
+}
+
 .footer {
     background: linear-gradient(to right, #e70909, rgb(0, 0, 0));
     color: whitesmoke;
