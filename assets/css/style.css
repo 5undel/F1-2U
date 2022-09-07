@@ -52,7 +52,7 @@ body {
 
 /* Diver page*/
 
-.diver-grid{
+.diver-grid {
     padding-top: 10%;
     padding-bottom: 10px;
 }
@@ -64,7 +64,8 @@ body {
 }
 
 .card-track {
-    background-color: grey;
+    background-color: black;
+    color: whitesmoke;
 }
 
 .footer {
